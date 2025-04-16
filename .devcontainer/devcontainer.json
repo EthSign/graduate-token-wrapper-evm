@@ -1,0 +1,13 @@
+{
+  "name": "EthSign: Solidity",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["juanblanco.solidity", "esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "adpyke.codesnap"]
+    }
+  },
+  "remoteUser": "vscode",
+  "features": {}
+}
