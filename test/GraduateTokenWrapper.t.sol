@@ -139,7 +139,6 @@ contract GraduateTokenWrapperTest is Test {
     /**
      *  @dev unwrap()
      */
-    // Test unwrap function
     function testFuzz_Unwrap(uint256 wrapAmount, uint256 unwrapAmount) public {
         wrapAmount = bound(wrapAmount, 1, 1000 ether);
         unwrapAmount = bound(unwrapAmount, 1, wrapAmount);
